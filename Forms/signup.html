@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Signup-Form</title>
+  <link rel="stylesheet" href="main.css">
+</head>
+<body>
+ <h1>Fun Form Time!</h1>
+  <form>
+      <label>First Name</label>
+      <input type="text" name="username" size="15">
+      <label>E-Mail</label>
+      <input type="email" name="e-mail">
+      <label>Password</label>
+      <input type="text" name="password" size="15">
+      <label>Please select your gender</label>
+      <select name="gender">
+        <option value="male">Male</option>
+        <option value="female">Female</option>
+      </select>
+<!--
+      <input type="radio" name="gender" value="male"> <label for="male">Male</label>
+      <input type="radio" name="gender" value="female"> <label for="female">Female</label>
+-->
+      <label for="aboutyoubio">About you/Bio:</label>
+      <textarea name="Bio" id="" cols="30" rows="10"></textarea>
+      <label>Favorite Way to Write Colors in CSS:</label>
+      <label><input type="radio" name="color" value="hex">HEX</label>
+      <label><input type="radio" name="color" value="rgb">RGB</label>
+      <label><input type="radio" name="color" value="hsl">HSL</label>
+      <label>5 trasportation items you've used</label>
+      <label><input id="t1"type="checkbox" name="transportation" value="car">Car</label>
+      <label><input id="t2"type="checkbox" name="transportation" value="bike">Bike</label>
+      <label><input id="t3"type="checkbox" name="transportation" value="plane">Plane</label>
+      <label><input id="t4"type="checkbox" name="transportation" value="horse">Horse</label>
+      <label><input id="t5"type="checkbox" name="transportation" value="carriage">Carriage</label>
+      
+<!--
+      <select name="transportation" size="5" multiple="multiple">
+        <option value="car">Car</option>
+        <option value="bike">Bike</option>
+        <option value="plane">Plane</option>
+        <option value="horse">Horse</option>
+        <option value="carriage">Carriage</option>
+      </select>
+-->
+      <input type="submit" value="Submit">
+  </form>
+</body>
+</html>
+
+
