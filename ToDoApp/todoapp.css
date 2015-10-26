@@ -1,0 +1,19 @@
+.done{
+    text-decoration: line-through;
+}
+
+body{
+  background-color: mediumpurple;
+  width: 360px;
+  padding: 20px;
+}
+
+h1 {
+  color: white;
+  text-align: center;
+}
+
+ul {
+  color: white;
+}
+
